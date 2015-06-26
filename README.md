@@ -1,2 +1,2 @@
-# vagrant-meteor
-A vagrant development enviroment with meteorjs.
+# codejet
+streamline your pipeline
