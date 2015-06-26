@@ -1,5 +1,4 @@
 #!/bin/bash
-su vagrant
 echo "Meteor Setup"
 curl https://install.meteor.com/ | /bin/sh
 APP_PATH='/var/www'
@@ -15,7 +14,6 @@ LOCAL_DATA_PATH=${APP_PATH}'/.meteor/local/db'
 #meteor remove insecure
 #meteor add iron:router
 #meteor add appcache
-sudo su
 MONGO_STORAGE='/mongodb'
 SRC_DATA=${MONGO_STORAGE}'/codejet'
 SRC_DATA_APP=${MONGO_STORAGE}'/codejet/db'
