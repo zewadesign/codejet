@@ -38,8 +38,8 @@ vagrantfile-local:
             sqyA7oci9gfv:
                 owner: www-data
                 group: www-data
-                source: ./apps
-                target: /srv
+                source: ./codejet
+                target: /var/www
                 sync_type: default
                 rsync:
                     args:
